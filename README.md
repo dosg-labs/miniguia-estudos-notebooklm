@@ -78,7 +78,7 @@ A construção do caderno temático passou por um processo iterativo de refiname
 ### 📄 Arquivo do Manual Prático
 A entrega central e produto final deste desafio é o miniguia em PDF gerado diretamente via NotebookLM a partir do processo de síntese e prompts personalizados em português:
 
-👉 **[Download / Visualizar o Manual Prático (PDF)](./Manual_Pratico_FIIs.pdf)**
+👉 **[Download / Visualizar o Manual Prático (PDF)]([./Manual_Pratico_FIIs.pdf](https://github.com/dosg-labs/miniguia-estudos-notebooklm/blob/main/Manual%20Pr%C3%A1tico_%20O%20Caminho%20para%20Viver%20de%20Renda%20com%20Fundos%20Imobili%C3%A1rios%20(FIIs).pdf)**
 
 ---
 
