@@ -9,6 +9,8 @@
 
 *Documentação de engenharia de prompts e caderno temático de estudos no NotebookLM para análise de Fundos Imobiliários.*
 
+[📄 Acessar o Manual Prático em PDF](https://github.com/dosg-labs/miniguia-estudos-notebooklm/blob/main/Manual%20Pr%C3%A1tico_%20O%20Caminho%20para%20Viver%20de%20Renda%20com%20Fundos%20Imobili%C3%A1rios%20(FIIs).pdf) • [📚 Ver Curadoria de Fontes](#-curadoria-de-fontes) • [🛠️ Engenharia de Prompts](#%EF%B8%8F-engenharia-de-prompts-e-cicatrizes) • [🎬 Vídeo Complementar](https://youtu.be/NKIsmVbg9I8)
+
 </div>
 
 ---
@@ -23,7 +25,7 @@
   - [Estudo de Caso Prático (EXPLO11)](#2-exerc%C3%ADcio-pr%C3%A1tico-fundo-fict%C3%ADcio-explo11)
   - [Glossário de Conceitos](#3-gloss%C3%A1rio-de-conceitos)
   - [Prompts Reutilizáveis para Estudo](#4-prompts-reutiliz%C3%A1veis-para-estudo)
-- [Recurso Multimídia Adicional (Vídeo/Podcast)](#-recurso-multim%C3%ADdia-adicional)
+- [Recurso Multimídia: Análise Didática em Vídeo](#-recurso-multim%C3%ADdia-an%C3%A1lise-did%C3%A1tica-em-v%C3%ADdeo)
 - [💡 Reflexões Críticas e Roadmap de Evolução (V2)](#-reflex%C3%B5es-cr%C3%ADticas-e-roadmap-de-evolu%C3%A7%C3%A3o-v2)
 - [Autor](#-autor)
 
