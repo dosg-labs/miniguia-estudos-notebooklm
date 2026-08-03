@@ -175,13 +175,13 @@ A avaliação contínua das saídas geradas pela IA faz parte de uma postura res
 * **Densidade Técnica no Relatório:** O manual em PDF começou com boa cadência e didática, porém tornou-se técnico demais no decorrer das seções.
 * **Efetividade Multimodal:** A versão em áudio/vídeo gerada pelo NotebookLM superou as limitações do texto, demonstrando maior eficiência cognitiva e clareza para a introdução ao tema.
 
-> [!WARNING]
-> ### **2. Hipóteses de Melhoria e Ajustes de Prompt (Roadmap V2)**
-> Para contornar a curva de complexidade e elevar a precisão do estudo em próximas iterações, foram traçadas três frentes de atuação:
-> 
-> 1. **Ampliação da Curadoria de Fontes:** Integrar portais de dados financeiros em tempo real (como *Investidor10* ou *StatusInvest*) para indicadores dinâmicos, combinados a artigos acadêmicos para rigor metodológico.
-> 2. **Prompts de Tradução Didática Compulsória:** Implementar travas nos prompts que forcem a IA a **sempre emparelhar qualquer conceito financeiro complexo com um exemplo prático do dia a dia** (ex: *"Sempre que mencionar LTV, explique utilizando a analogia de um empréstimo com garantia pessoal"*).
-> 3. **Framework de Análise Escalável:** Aprimorar o caderno temático para transformar a estrutura de prompts em um modelo reutilizável, capaz de processar relatórios gerenciais e executar a análise fundamentalista automatizada de **qualquer fundo imobiliário listado na B3**.
+
+### **2. Hipóteses de Melhoria e Ajustes de Prompt (Roadmap V2)**
+Para contornar a curva de complexidade e elevar a precisão do estudo em próximas iterações, foram traçadas três frentes de atuação:
+
+1. **Ampliação da Curadoria de Fontes:** Integrar portais de dados financeiros em tempo real (como *Investidor10* ou *StatusInvest*) para indicadores dinâmicos, combinados a artigos acadêmicos para rigor metodológico.
+2. **Prompts de Tradução Didática Compulsória:** Implementar travas nos prompts que forcem a IA a **sempre emparelhar qualquer conceito financeiro complexo com um exemplo prático do dia a dia** (ex: *"Sempre que mencionar LTV, explique utilizando a analogia de um empréstimo com garantia pessoal"*).
+3. **Framework de Análise Escalável:** Aprimorar o caderno temático para transformar a estrutura de prompts em um modelo reutilizável, capaz de processar relatórios gerenciais e executar a análise fundamentalista automatizada de **qualquer fundo imobiliário listado na B3**.
 
 ---
 
