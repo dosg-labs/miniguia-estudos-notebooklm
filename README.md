@@ -9,7 +9,7 @@
 
 *Documentação de engenharia de prompts e caderno temático de estudos no NotebookLM para análise de Fundos Imobiliários.*
 
-[📄 Acessar o Manual Prático em PDF](./Manual_Pratico_FIIs.pdf) • [📚 Ver Curadoria de Fontes](#-curadoria-de-fontes) • [🛠️ Engenharia de Prompts](#%EF%B8%8F-engenharia-de-prompts-e-cicatrizes) • [🎬 Vídeo Complementar](https://youtu.be/NKIsmVbg9I8)
+[📄 Acessar o Manual Prático em PDF](https://github.com/dosg-labs/miniguia-estudos-notebooklm/blob/main/Manual%20Pr%C3%A1tico_%20O%20Caminho%20para%20Viver%20de%20Renda%20com%20Fundos%20Imobili%C3%A1rios%20(FIIs).pdf) • [📚 Ver Curadoria de Fontes](#-curadoria-de-fontes) • [🛠️ Engenharia de Prompts](#%EF%B8%8F-engenharia-de-prompts-e-cicatrizes) • [🎬 Vídeo Complementar](https://youtu.be/NKIsmVbg9I8)
 
 </div>
 
@@ -78,83 +78,10 @@ A construção do caderno temático passou por um processo iterativo de refiname
 ### 📄 Arquivo do Manual Prático
 A entrega central e produto final deste desafio é o miniguia em PDF gerado diretamente via NotebookLM a partir do processo de síntese e prompts personalizados em português:
 
-👉 **[Download / Visualizar o Manual Prático (PDF)]([./Manual_Pratico_FIIs.pdf](https://github.com/dosg-labs/miniguia-estudos-notebooklm/blob/main/Manual%20Pr%C3%A1tico_%20O%20Caminho%20para%20Viver%20de%20Renda%20com%20Fundos%20Imobili%C3%A1rios%20(FIIs).pdf)**
+👉 **[Download / Visualizar o Manual Prático em PDF](https://github.com/dosg-labs/miniguia-estudos-notebooklm/blob/main/Manual%20Pr%C3%A1tico_%20O%20Caminho%20para%20Viver%20de%20Renda%20com%20Fundos%20Imobili%C3%A1rios%20(FIIs).pdf)**
 
 ---
 
 ### 1. Resumo Estruturado dos FIIs
 
 Os **Fundos Imobiliários (FIIs)** democratizaram o mercado imobiliário brasileiro ao permitir que investidores acessem ativos de alto padrão com baixo capital inicial e isenção de Imposto de Renda sobre os rendimentos mensais (para pessoas físicas).
-
-```
-[ Investidor ] ──( Compra Cotas )──> [ Fundo Imobiliário ] ──( Adquire )──> [ Imóveis / Títulos ]
-       ▲                                                                            │
-       └──────────────────( Recebe Aluguéis / Juros )──────────────────────────────┘
-```
-
-#### **Categorias e Especificidades Técnicas**
-* **Fundos de Tijolo:** Imóveis físicos (Shoppings, Galpões Logísticos, Lajes Corporativas). Renda advinda dos aluguéis.
-* **Fundos de Papel (Recebíveis):** Títulos de dívida imobiliária (CRI, LCI). Exigem análise de crédito, tranches (Sênior, Mezanino, Subordinada) e **LTV (Loan-to-Value)**.
-* **Fundos de Fundos (FoFs):** Investem em cotas de outros FIIs, garantindo diversificação instantânea.
-* **Híbridos:** Combinam ativos imobiliários físicos com títulos de crédito.
-
----
-
-### 2. Painel de Controle de Indicadores
-
-| Indicador | O que avalia? | Leitura / Critério |
-| :--- | :--- | :--- |
-| **P/VP** | Preço da Cota vs. Valor Patrimonial | `= 1` (Preço justo), `< 1` (Deságio/Desconto), `> 1` (Ágio/Caro) |
-| **Dividend Yield (DY)** | Retorno em proventos | Avaliar histórico de 12m para verificar consistência da renda |
-| **Vacância (Física x Financeira)** | Espaço desocupado x Perda de receita | Vacância física baixa com financeira alta indica concessão excessiva de carências |
-| **WALT to Break / Expiry** | Média do prazo dos contratos | *WALT to Break* mede a primeira janela de saída sem multa (previsibilidade real) |
-| **Absorção Líquida** | Variação de m² ocupados vs. devolvidos | Se positiva, indica expansão da ocupação no fundo/mercado |
-
----
-
-### 3. Exercício Prático: Fundo Fictício "EXPLO11"
-
-Para consolidar o aprendizado, o manual prático realiza a análise passo a passo de um fundo fictício de Tijolo (Logístico):
-
-* **Dados do EXPLO11:** Cota: R$ 100,00 | VP: R$ 110,00 | DY (12m): 10% a.a. | Vacância Física: 2% | WALT to Break: 6 anos (Contratos Atípicos) | Portfólio: 5 Galpões AAA em SP/MG.
-* **Análise:**
-  1. *P/VP:* $100 / 110 = 0,90$ (Comprado com 10% de desconto patrimonial).
-  2. *Yield:* 10% a.a., retorno real robusto e recorrente.
-  3. *Risco/Qualidade:* Imóveis AAA de alta liquidez com contratos atípicos de longo prazo protegidos por multas severas.
-* **Conclusão:** O EXPLO11 representa uma oportunidade clara, onde o deságio de 10% (P/VP 0,90) decorre do pessimismo do mercado e não de fundamentos ruins do fundo.
-
----
-
-### 4. Glossário de Conceitos
-
-* **Cota:** A menor fração do patrimônio do fundo.
-* **CapEx (Capital Expenditure):** Investimentos em melhorias e modernização dos imóveis.
-* **LTV (Loan-to-Value):** Razão entre a dívida e o valor da garantia (abaixo de 50% indica margem saudável).
-* **CRI (Certificado de Recebíveis Imobiliários):** Título de dívida imobiliária que compõe a carteira dos fundos de papel.
-* **IFIX:** Índice benchmark do mercado de FIIs na B3.
-
----
-
-### 5. Prompts Reutilizáveis para Estudo
-
-Utilize estas perguntas orientadoras no chat do seu **NotebookLM** para analisar novos relatórios gerenciais:
-
-1. *"Apresente-me todos os indicadores deste FII, ensinando-me a analisar um a um com definições e exemplos práticos."*
-2. *"Explique, de modo didático, os tipos de contratos de locação (típicos vs. atípicos) presentes neste relatório e os pontos de atenção."*
-3. *"Ensine, passo a passo, como um investidor leigo deve ler a seção de DRE (Demonstração do Resultado do Exercício) deste fundo."*
-4. *"Monte um quadro comparativo elencando os riscos específicos e as oportunidades identificadas na tese deste fundo."*
-
----
-
-## 🎬 Recurso Multimídia Adicional
-
-Além do miniguia principal em PDF, foi gerado como **produto adicional** um vídeo/podcast em áudio no NotebookLM para primeira aproximação ao tema.
-
-* 🎬 **Assistir ao Vídeo no YouTube:** [Introdução Didática aos FIIs](https://youtu.be/NKIsmVbg9I8)
-
----
-
-## 👤 Autor
-
-Desenvolvido por **Diego de Oliveira**  
-*Estudante do Bootcamp Bradesco - GenAI, Dados & Cyber da DIO.*
