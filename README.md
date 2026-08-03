@@ -2,23 +2,24 @@
 
 *Documentação de engenharia de prompts e caderno temático de estudos no NotebookLM para análise de Fundos Imobiliários.*
 
-[📄 Acessar o Manual Prático em PDF](https://github.com/dosg-labs/miniguia-estudos-notebooklm/blob/main/Manual%20Pr%C3%A1tico_%20O%20Caminho%20para%20Viver%20de%20Renda%20com%20Fundos%20Imobili%C3%A1rios%20(FIIs).pdf) • [📚 Ver Curadoria de Fontes](#-curadoria-de-fontes) • [🛠️ Engenharia de Prompts](#-engenharia-de-prompts-e-cicatrizes) • [🎬 Vídeo Complementar](https://youtu.be/NKIsmVbg9I8)
+[📄 Acessar o Manual Prático em PDF](https://github.com/dosg-labs/miniguia-estudos-notebooklm/blob/main/Manual%20Pr%C3%A1tico_%20O%20Caminho%20para%20Viver%20de%20Renda%20com%20Fundos%20Imobili%C3%A1rios%20(FIIs).pdf) • [📚 Ver Curadoria de Fontes](#curadoria-de-fontes) • [🛠️ Engenharia de Prompts](#engenharia-de-prompts-e-cicatrizes) • [🎬 Vídeo Complementar](https://youtu.be/NKIsmVbg9I8)
 
 ---
 
 ## 📌 Sumário
-- [Contexto e Objetivos](#-contexto-e-objetivos)
-- [Curadoria de Fontes](#-curadoria-de-fontes)
-- [Engenharia de Prompts e "Cicatrizes"](#-engenharia-de-prompts-e-cicatrizes)
-- [Entrega Principal: Miniguia de Estudo (Manual Prático)](#-entrega-principal-miniguia-de-estudo-manual-pratico)
-  - [Visão Geral e Arquivo PDF](#-arquivo-do-manual-pratico)
-  - [Resumo Estruturado e Indicadores](#1-resumo-estruturado-dos-fiis)
-  - [Estudo de Caso Prático (EXPLO11)](#2-exercicio-pratico-fundo-ficticio-explo11)
-  - [Glossário de Conceitos](#3-glossario-de-conceitos)
-  - [Prompts Reutilizáveis para Estudo](#4-prompts-reutilizaveis-para-estudo)
-- [Recurso Multimídia: Análise Didática em Vídeo](#-recurso-multimidia-analise-didatica-em-video)
-- [💡 Reflexões Críticas e Roadmap de Evolução (V2)](#-reflexoes-criticas-e-roadmap-de-evolucao-v2)
-- [Autor](#-autor)
+- [Contexto e Objetivos](#contexto-e-objetivos)
+- [Curadoria de Fontes](#curadoria-de-fontes)
+- [Engenharia de Prompts e "Cicatrizes"](#engenharia-de-prompts-e-cicatrizes)
+- [Entrega Principal: Miniguia de Estudo (Manual Prático)](#entrega-principal-miniguia-de-estudo-manual-prático)
+  - [Arquivo do Manual Prático](#arquivo-do-manual-prático)
+  - [1. Resumo Estruturado dos FIIs](#1-resumo-estruturado-dos-fiis)
+  - [2. Painel de Controle de Indicadores](#2-painel-de-controle-de-indicadores)
+  - [3. Exercício Prático: Fundo Fictício "EXPLO11"](#3-exercício-prático-fundo-fictício-explo11)
+  - [4. Glossário de Conceitos](#4-glossário-de-conceitos)
+  - [5. Prompts Reutilizáveis para Estudo](#5-prompts-reutilizáveis-para-estudo)
+- [Recurso Multimídia: Análise Didática em Vídeo](#recurso-multimídia-análise-didática-em-vídeo)
+- [Reflexões Críticas e Roadmap de Evolução (V2)](#reflexões-críticas-e-roadmap-de-evolução-v2)
+- [Autor](#autor)
 
 ---
 
