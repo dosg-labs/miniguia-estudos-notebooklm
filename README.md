@@ -1,6 +1,6 @@
 # 📊 Treinando uma IA de Aprendizagem: Análise Fundamentalista de FIIs
 
-*Documentação de engenharia de prompts e caderno temático de estudos no NotebookLM para análise de Fundos Imobiliários.*
+> *Documentação de engenharia de prompts e caderno temático de estudos no NotebookLM para análise de Fundos Imobiliários.*
 
 [📄 Acessar o Manual Prático em PDF](https://github.com/dosg-labs/miniguia-estudos-notebooklm/blob/main/Manual%20Pr%C3%A1tico_%20O%20Caminho%20para%20Viver%20de%20Renda%20com%20Fundos%20Imobili%C3%A1rios%20(FIIs).pdf) • [📚 Ver Curadoria de Fontes](#curadoria-de-fontes) • [🛠️ Engenharia de Prompts](#engenharia-de-prompts-e-cicatrizes) • [🎬 Vídeo Complementar](https://youtu.be/NKIsmVbg9I8)
 
@@ -79,9 +79,9 @@ A entrega central e produto final deste desafio é o miniguia em PDF gerado dire
 Os **Fundos Imobiliários (FIIs)** democratizaram o mercado imobiliário brasileiro ao permitir que investidores acessem ativos de alto padrão com baixo capital inicial e isenção de Imposto de Renda sobre os rendimentos mensais (para pessoas físicas).
 
 **Fluxo de Funcionamento do FII:**
-* **Investidor** ──*(Compra Cotas)*──> **Fundo Imobiliário**
-* **Fundo Imobiliário** ──*(Adquire)*──> **Imóveis / Títulos**
-* **Imóveis / Títulos** ──*(Gera Rendimentos)*──> **Investidor** (Recebe Aluguéis / Juros)
+1. **Investidor** ➔ *(Compra Cotas)* ➔ **Fundo Imobiliário**
+2. **Fundo Imobiliário** ➔ *(Adquire)* ➔ **Imóveis / Títulos**
+3. **Imóveis / Títulos** ➔ *(Gera Rendimentos)* ➔ **Investidor** (Recebe Aluguéis / Juros)
 
 #### **Categorias e Especificidades Técnicas**
 * **Fundos de Tijolo:** Imóveis físicos (Shoppings, Galpões Logísticos, Lajes Corporativas). Renda advinda dos aluguéis.
@@ -95,11 +95,11 @@ Os **Fundos Imobiliários (FIIs)** democratizaram o mercado imobiliário brasile
 
 | Indicador | O que avalia? | Leitura / Critério |
 | :--- | :--- | :--- |
-| **P/VP** | Preço da Cota vs. Valor Patrimonial | `= 1` (Preço justo), `< 1` (Deságio/Desconto), `> 1` (Ágio/Caro) |
-| **Dividend Yield (DY)** | Retorno em proventos | Avaliar histórico de 12m para verificar consistência da renda |
-| **Vacância (Física x Financeira)** | Espaço desocupado x Perda de receita | Vacância física baixa com financeira alta indica concessão excessiva de carências |
-| **WALT to Break / Expiry** | Média do prazo dos contratos | *WALT to Break* mede a primeira janela de saída sem multa (previsibilidade real) |
-| **Absorção Líquida** | Variação de m² ocupados vs. devolvidos | Se positiva, indica expansão da ocupação no fundo/mercado |
+| **P/VP** | Preço da Cota vs. Valor Patrimonial | `= 1` (Preço justo), `< 1` (Desconto), `> 1` (Ágio) |
+| **Dividend Yield (DY)** | Retorno em proventos | Avaliar histórico de 12m para verificar consistência |
+| **Vacância (Física x Financeira)** | Espaço desocupado x Perda de receita | Física baixa com financeira alta indica carências excessivas |
+| **WALT to Break / Expiry** | Média do prazo dos contratos | O *To Break* mede a 1ª janela de saída sem multa |
+| **Absorção Líquida** | Variação de m² ocupados vs. devolvidos | Se positiva, indica expansão da ocupação no fundo |
 
 ---
 
@@ -107,11 +107,11 @@ Os **Fundos Imobiliários (FIIs)** democratizaram o mercado imobiliário brasile
 
 Para consolidar o aprendizado, o manual prático realiza a análise passo a passo de um fundo fictício de Tijolo (Logístico):
 
-* **Dados do EXPLO11:** Cota: R$ 100,00 | VP: R$ 110,00 | DY (12m): 10% a.a. | Vacância Física: 2% | WALT to Break: 6 anos (Contratos Atípicos) | Portfólio: 5 Galpões AAA em SP/MG.
+* **Dados do EXPLO11:** Cota: R$ 100,00 | VP: R$ 110,00 | DY (12m): 10% a.a. | Vacância Física: 2% | WALT to Break: 6 anos | Portfólio: 5 Galpões AAA em SP/MG.
 * **Análise:**
   1. *P/VP:* R$ 100 / R$ 110 = 0,90 (Comprado com 10% de desconto patrimonial).
   2. *Yield:* 10% a.a., retorno real robusto e recorrente.
-  3. *Risco/Qualidade:* Imóveis AAA de alta liquidez com contratos atípicos de longo prazo protegidos por multas severas.
+  3. *Risco/Qualidade:* Imóveis AAA de alta liquidez com contratos atípicos de longo prazo.
 * **Conclusão:** O EXPLO11 representa uma oportunidade clara, onde o deságio de 10% (P/VP 0,90) decorre do pessimismo do mercado e não de fundamentos ruins do fundo.
 
 ---
